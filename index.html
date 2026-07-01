@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+	</head>
+		<body>
+            <header>
+                <h1>Portfólio De Julio Alves</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section id="sobre">
+                    <div class="sobre-conteudo">
+                        <div class="sobre-texto">
+                            <h2>Quem sou eu?</h2>
+                            <p>Meu nome é Julio, eu sou estudante de Sistemas de Informação, amante da Tecnologia, Inteligência Artificial e Marketing.
+                                Trabalhei muito tempo na área de Varejo e atualmente atuo no ramo do marketing digital.
+                            </p>
+                        </div>
+                        <div class="sobre-foto">
+                            <img src="imagens/perfil.jpeg" alt="Foto de Julio">
+                        </div>
+                    </div>
+                </section>
+                <section id="habilidades">
+                    <h2>Quais são minhas habilidades?</h2>
+                    <ul class="lista-habilidades">
+                        <li class="card-habilidades">
+                            <img src="imagens/pacot.png" alt="pacotesoffice">
+                            <span>Pacotes Office</span>
+                            <p>Possuo conhecimentos sobre os pacotes Office montando planilhas, apresentações, documentos e afins.</p>
+                       </li> 
+                        <li class="card-habilidades">
+                            <img src="imagens/hcj.png" alt="HTML">
+                            <span>HTML, Css e JS</span>
+                            <p>Desenvolvo páginas web e landing pages focadas em conversão utilizando o Html5 para estruturação, Css para estilização e JavaScript para o backend das páginas.</p>
+                        </li>
+                        <li class="card-habilidades">
+                            <img src="imagens/python.png" alt="Python">
+                            <span>Python</span>
+                            <p>Desenvolvo programas de caráter iniciante em Python. Como algoritmos, listas, e etc</p>
+                            <a href="#projeto-link" class="btn">Veja meus projetos</a>
+                        </li>
+                        <li class="card-habilidades">
+                            <img src="imagens/estrat.png" alt="Estratégias Digitais">
+                            <span>Estratégias Digitais</span>
+                            <p>Somado à área de Marketing Digital, eu trabalhei a mais de um ano montando funis que convertam o lead desde o meio de comunicação até o x1</p>
+                        </li>
+                        <li class="card-habilidades">
+                            <img src="imagens/mkt.png" alt="Marketing">
+                            <span>Marketing Digital</span>
+                            <p>Trabalho a mais de um ano com Marketing Digital. Desde planejamento de projetos, comunicação e até edição de vídeo.</p>
+                        </li>
+                    </ul>
+                </section>
+                <section id="projetos">
+                    <h2>Projetos</h2>
+                    <div class = "grid-projeto">
+                        <article id="projeto-link" class ="card-projeto">
+                            <img src="imagens/projetPython" alt="Validador de Maior idade">
+                            <h3>Validador de acesso por idade (Python)</h3>
+                            <p>Script Python que valida acesso por idade.</p>
+                            <a href="https://github.com/006513-lib/lab_programacao/blob/main/Atividades/subprogramacao/exercicio03.py" target="_blank" rel="noopener noreferrer" class="btn">Veja Aqui!</a>
+                        </article>
+                        <article class ="card-projeto">
+                            <img src="imagens/historico.png" alt="Histórico de Saldo">
+                            <h3>Histórico de saldo (Python)</h3>
+                            <p>Script Python onde guarda o histórico de valor dos usuários.</p>
+                            <a href="https://github.com/006513-lib/lab_programacao/blob/main/Atividades/Extrasala/atividade09.py" target="_blank" rel="noopener noreferrer" class="btn">Veja Aqui!</a>
+                        </article>
+                    </div>
+                        <p class="projeto-link">Clique no link abaixo e tenha acesso aos meus projetos!</p>
+                        <a href="https://github.com/006513-lib" target="_blank" rel="noopener noreferrer" class="btn">Acesse aqui meus demais Projetos!</a>
+                    </article>
+                </section>
+                <section id="contato">
+                    <h2>Contato</h2>
+                    <p>Tem alguma dúvida ou interesse em alguma habilidade/serviço? Preencha o campo abaixo e eu entrarei em contato em menos de 10 minutos!</p>
+                    <form id="form-contato">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Insira seu nome">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Seu melhor email">
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <div id="mensagem-confirmacao"></div>
+                </section>
+            </main>
+            <footer>
+                <hr>
+               <p>&copy; 2026 Julio Alves. Todos os Direitos Reservados</p>
+            </footer>
+            <script src="script.js"></script>
+		</body>
+</html>
